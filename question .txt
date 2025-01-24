@@ -1,0 +1,197 @@
+1. WAP to convert swap to variable without using third variable?
+
+2. WAP to find the ASCII Value of character?
+
+3.WAP to find the digit sum?
+
+4.WAP to find the number is odd or even?
+
+5.WAP to explain memmory usage in java with the help of variable?
+
+6.WAP to create a employee class and create methods having details of employee i, employee name,employee adress?
+
+7.WAP to calculate the factorial of a given number?
+
+8.Write a Java program to calculate the simple interest for a given principal
+amount, rate of interest, and time period. Ensure that the input values are valid and
+non-negative.
+
+Constraints:
+0 <= P <= 100000
+0 <= R <= 100
+0 <= T <= 30
+
+9.Write a Java program to convert the temperature from Fahrenheit to
+Celsius. Ensure that the input Fahrenheit temperature is within a valid range.
+
+Constraints:
+Fahrenheit temperature (F) is a decimal value.
+-100 <= F <= 300
+
+10.Write a Java program to calculate the BMI (Body Mass Index) based on
+weight and height inputs. Ensure that weight and height are within valid ranges.
+
+Constraints:
+Weight (W) and height (H) are positive decimal values.
+0 < W < 500
+0 < H < 3.0
+
+11.WAP to create a table of a number entered by the user.
+
+12.WAP to check weather the number is Prime or not.
+
+13.WAP to check weather a number is amrstrong or not.
+
+14.Develop a program to print the following pattern:
++
+++
++++
+++++
+
+15.Write a Java program that takes two boolean values as input and performs
+the logical AND, OR, and NOT operations on them.
+Constraints: The input boolean values should be either true or false.
+Test Cases:
+Input 1: bool1 = true, bool2 = true
+Output 1: Logical AND: true
+Logical OR: true
+Logical NOT for bool1: false
+Logical NOT for bool2: false
+Input 2: bool 1 = true, bool2 = false
+Output 2: Logical AND: false
+Logical OR: true
+Input 3: bool 1 = false, bool2 = true
+Output 3: Logical AND: false
+Logical OR: true
+Input 4: bool 1 = false, bool2 = false
+Output 4: Logical AND: false
+Logical OR: false
+
+
+16.Write a program to take a student's score as input and print their grade based on the following criteria:
+
+A: 90 and above
+B: 80 to 89
+C: 70 to 79
+D: 60 to 69
+F: Below 60
+
+17.Write a simple console-based tic-tac-toe game where two players take turns placing their marks ('X' and 'O') on a 3x3 grid. Use nested loops and conditions to check for a win or draw.
+
+18.Write a program to keep taking numbers as input and print them until the user enters 0
+
+19.Write a program to print the following pattern using nested loops:
+
+++++
+++++
+++++
+++++
+
+20.WAP to print the Pyramid pattern.
+
+21.Write a program to reverse a string using a for loop.
+
+22.Write a program to count the occurrences of a specific digit in a number using a while loop.
+
+Input: Number = 123451234, Digit = 2
+Output: 2 occurrences of 2
+
+23.Write a program to convert a decimal number to binary using a while loop.
+
+Input: 10
+Output: 1010
+
+24.WAP to create array input should be given by user and then traverse the array.
+
+25.WAP to traverse 2D array.
+
+26.WAP to create a method that will create Maximum and minimum array.
+
+27.Create a Car Class:
+
+○ Fields: make, model, year.
+○ Constructors: No-arg constructor and a parameterized constructor.
+○ Methods: startEngine() which prints a start message.
+○ Instantiate and call methods from a main method in a separate TestCar class.
+
+28.Show how to encapsulate fields in the Car class by making them
+private and adding getter/setter methods.
+
+
+29.Create a BankAccount class:
+○ Private fields: accountNumber, balance.
+○ Public methods: deposit(double), withdraw(double), and
+getBalance().
+○ Write code that tests your BankAccount class to ensure correct behavior.
+
+
+30.Use inheritance to extend a Vehicle class into a Car class.
+○ Demonstrate Car objects calling methods from both Vehicle and Car.
+
+
+31.Create a class “Room” which will hold the “height”, “width” and “breadth” of the room in three
+fields. This class also has a method “volume()” to calculate the volume of this room. Create
+another class “RoomDemo” which will use the earlier class, create instances of rooms, and
+display the volume of room.
+
+
+32.Create an abstract class Shape with an abstract method draw().
+Extend it with Circle and Rectangle classes, implementing the draw()
+method.
+Test them in a main method.
+
+
+33.Create an interface Playable with method play().
+○ Implement it in classes VideoPlayer and AudioPlayer.
+○ Demonstrate usage by calling play() on objects of these classes.
+
+
+34.Add a default method in Playable called stop() that prints a generic stopping
+message.
+Override it in VideoPlayer to show a different message.
+
+35.○ Read a string from the console and:
+■ Convert it to uppercase/lowercase.
+■ Reverse the string.
+■ Check if it is a palindrome
+
+
+
+36.Write a program to convert a number given in string form to its corresponding integer.
+Hint: Convert characters to equivalent integers and multiply by an appropriate power of 10.
+
+
+37.Write a program to find the longest common prefix of two strings
+
+38.Write a program to check whether a sequence of brackets is balanced or not
+
+39.Write a program to convert an integer to a Roman number
+
+40.Create an abstract class 'Bank' with an abstract method 'getBalance'. $100, $150 and $200 are
+deposited in banks A, B and C respectively. 'BankA', 'BankB' and 'BankC' are subclasses of class
+'Bank', each having a method named 'getBalance'. Call this method by creating an object of each
+of the three classes.
+
+
+
+41.Design and develop a context for given case study and implement an interface for Vehicles.
+Consider the example of vehicles like bicycle, car and bike. All Vehicles have common
+functionalities such as Gear Change, Speed up and apply breaks. Make an interface and put all
+these common functionalities. Bicycle, Bike, Car classes should be implemented for all these
+functionalities in their own class in their own way.
+
+
+42.WAP to check weather a number is leap year or not.
+
+43.WAP to print the Diamond pattern.
+
+44.WAP to print hallo Diamond.
+
+45.WAP to print Butterfly pattern.
+
+
+46.WAP to print the sum of arrays.
+
+47.Find the smallest and largest element in array.
+
+48.Find the second largest element in the array.
