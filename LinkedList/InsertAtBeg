@@ -1,0 +1,55 @@
+//WAP to insert a node at the beginning of the linked list.
+
+
+class Node {
+    int data;
+    Node next;
+
+    
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
+class LinkedList {
+    Node head;
+
+    
+    LinkedList() {
+        this.head = null;
+    }
+
+    
+    void insertAtBeginning(int data) {
+        Node newNode = new Node(data);
+        newNode.next = head; 
+        head = newNode; 
+    }
+
+    
+    void printList() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println(); 
+    }
+}
+
+
+public class InsertAtBeginning {
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+
+       
+        list.insertAtBeginning(10);
+        list.insertAtBeginning(20);
+        list.insertAtBeginning(30);
+        list.insertAtBeginning(40);
+
+        
+        list.printList();
+    }
+}
